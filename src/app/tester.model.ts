@@ -43,4 +43,9 @@ export class TesterBuilder {
     this.tester.rank = rank;
     return this;
   }
+
+  build(): Tester {
+    return this.tester
+  }
+
 }
